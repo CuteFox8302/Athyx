@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "athyxmod",
+	"version": "${version}",
+	"name": "Athyx",
+	"description": "Adds a bunch of random stuff.",
+	"authors": [
+		"_CuteFox_"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT License",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.cutefox.athyx.Athyx"
+		],
+		"client": [
+			"net.cutefox.athyx.AthyxClient"
+		],
+		"fabric-datagen": [
+			"net.cutefox.athyx.AthyxDataGenerator"
+		]
+	},
+	"mixins": [
+		"athyxmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
