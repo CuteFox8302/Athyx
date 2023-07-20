@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "athyx:block/athyx_block"
+    }
+  }
+}

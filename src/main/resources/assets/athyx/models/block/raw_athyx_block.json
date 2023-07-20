@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "athyx:block/raw_athyx_block"
+  }
+}

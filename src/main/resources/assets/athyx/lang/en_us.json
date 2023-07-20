@@ -1,0 +1,10 @@
+{
+  "item.athyx.athyx_ingot": "Athyx Ingot",
+  "item.athyx.athyx_nugget": "Athyx Nugget",
+  "item.athyx.raw_athyx": "Raw Athyx",
+
+  "block.athyx.athyx_block": "Block of Athyx",
+  "block.athyx.raw_athyx_block": "Block of Raw Athyx",
+
+  "itemgroup.athyx": "Athyx"
+}
